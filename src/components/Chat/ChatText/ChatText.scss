@@ -1,6 +1,6 @@
 .ChatText{
-    max-width: 640px;
-    min-width: 640px;
+    max-width: 90%;
+    min-width: 90%;
     max-height: 500px;
     min-height: 500px;
     background: rgba(77, 139, 159, 0.7);
@@ -41,7 +41,7 @@
     }
     &__input{
         all: unset;
-        width: 70%;
+        width: 200%;
         margin: 0px 0px 14px 22px;
         padding: 19px;
         background-color: #29485D;
@@ -52,7 +52,7 @@
     }
     &__btn{
         all: unset;
-        width: calc(100% - 70% - 22px - 14px - 17px);
+        width: 50%;
         padding: 19px;
         background-color: #29485D;
         border-radius: 10px;
