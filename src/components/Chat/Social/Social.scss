@@ -12,9 +12,8 @@
         flex-direction: row;
         width: 100%;
         justify-content: start;
-        margin-left: 40px;
         margin-bottom: 12px;
-        margin-top: 100px;
+        margin-left: 20px;
         right: 0;
     }
 
@@ -25,7 +24,10 @@
         border-radius: 10px;
         width: 60px;
         height: 60px;
-
+        @media (max-width: 500px){
+            width: 40px;
+            height: 40px;
+        }
         img {
             width: 32px;
         }
