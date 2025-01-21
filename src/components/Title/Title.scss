@@ -1,0 +1,21 @@
+.Title {
+    text-transform: uppercase;
+    font-family: "Upheaval";
+    font-size: 110px;
+    // max-width: 450px;
+    // min-width: 450px;
+    // margin: 0 auto;
+    width: 100%;
+    text-align: center;
+
+    @media (max-width: 900px) {
+        text-align: left;
+        margin: 18px 0 0 40px;
+        font-size: 30px;
+        max-width: 115px;
+        min-width: 115px;
+        max-height: 15px;
+        min-height: 15px;
+        order: 1;
+    }
+}

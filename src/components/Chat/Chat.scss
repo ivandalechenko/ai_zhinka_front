@@ -1,0 +1,13 @@
+.Chat {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    justify-content: center;
+    align-items: center;
+
+    @media(max-width: 900px) {
+        width: 100dvw;
+        flex-wrap: wrap;
+        order: 3;
+    }
+}

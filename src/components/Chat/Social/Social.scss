@@ -1,0 +1,32 @@
+.Social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 60px;
+    position: relative;
+    right: 60px;
+
+    @media (max-width: 900px) {
+        flex-direction: row;
+        width: 100%;
+        justify-content: start;
+        margin-left: 190px;
+        margin-bottom: 12px;
+        margin-top: 100px;
+    }
+
+    &__img {
+        padding: 14px;
+        background-color: rgba(41, 72, 93, 0.5);
+        border: 2px solid #FF929A;
+        border-radius: 10px;
+        width: 60px;
+        height: 60px;
+
+        img {
+            width: 32px;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.Decor {
+    width: 100% !important;
+    justify-content: center !important;
+    // margin-left: 500px;
+    align-items: flex-end !important;
+    left: 500px;
+
+    // margin-top: 190px;   
+    @media (max-width: 900px) {
+        // margin-top: 220px;
+        order: 2;
+    }
+
+    img {
+        width: 490px;
+        height: 650px;
+    }
+}
