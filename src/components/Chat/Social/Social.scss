@@ -8,27 +8,54 @@
     position: relative;
     right: 60px;
 
+
     @media (max-width: 1000px) {
         flex-direction: row;
         width: 100%;
         justify-content: start;
-        margin-bottom: 12px;
-        margin-left: 20px;
         right: 0;
+        height: 90px;
+        padding: 0px 12px;
+        padding-bottom: 20px;
     }
 
 
-    &__img {
-        padding: 14px;
+    a {
+        transition: color 200ms, background-color 200ms;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: rgba(41, 72, 93, 0.5);
         border: 2px solid #FF929A;
         border-radius: 10px;
-        width: 60px;
-        @media(max-width: 500px){
-            width: 50px;
+
+        @media(max-width: 500px) {
+            width: 48px;
+            height: 48px;
         }
-        img {
-            width: 32px;
+
+        &:hover {
+            cursor: pointer;
+            color: black;
+            background-color: #fff;
+
+            img {
+                filter: invert(1);
+            }
         }
+    }
+
+    &__img {
+        width: 34px;
+        height: 34px;
+        transition: filter 200ms;
+
+        @media(max-width: 500px) {
+            width: 24px;
+            height: 24px;
+        }
+
     }
 }

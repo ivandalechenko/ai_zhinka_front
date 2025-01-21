@@ -143,7 +143,7 @@ html {
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url('../../../public/img/bg.svg');
+    background-image: url('/img/bg.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -159,8 +159,9 @@ body {
     align-content: space-between;
     justify-content: center;
     overflow: hidden;
-    @media(max-width: 1000px){
+
+    @media(max-width: 1000px) {
+        align-content: baseline;
         justify-content: flex-start;
-        // width: 100dvw;
     }
 }
