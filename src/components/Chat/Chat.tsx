@@ -8,7 +8,6 @@ const Chat: React.FC = () => {
         <div className='Chat'>
             <Social />
             <ChatText />
-
         </div>
     )};
 export default Chat

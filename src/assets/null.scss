@@ -158,8 +158,9 @@ body {
     align-items: center;
     align-content: space-between;
     justify-content: center;
+    overflow: hidden;
     @media(max-width: 1000px){
         justify-content: flex-start;
-        width: 100dvw;
+        // width: 100dvw;
     }
 }
