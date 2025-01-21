@@ -158,4 +158,8 @@ body {
     align-items: center;
     align-content: space-between;
     justify-content: center;
+    @media(max-width: 1000px){
+        justify-content: flex-start;
+        width: 100dvw;
+    }
 }

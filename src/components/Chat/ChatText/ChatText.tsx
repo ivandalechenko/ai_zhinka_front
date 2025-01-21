@@ -13,7 +13,9 @@ const ChatText: React.FC = () => {
                 </div>
                 <div className='ChatText__enter'>
                     <input type="text" className='ChatText__input'/>
-                    <input type='text' className='ChatText__btn' />
+                    <button type='button' className='ChatText__btn' onClick={()=>{
+                        console.log('Click')
+                    }}>SEND</button>
                 </div>
             </div>
         </div>
