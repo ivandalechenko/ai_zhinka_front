@@ -10,6 +10,23 @@ const ChatText: React.FC = () => {
                 <div className='ChatText__dialog'>
                     <Dialog text={'Meow'} />
                     <Dialog text={'Y: _'} />
+                    <Dialog text={'Y: _'} />
+                    <Dialog text={'Y: _'} />
+                    <Dialog text={'Y: _'} />
+                    <Dialog text={'Y: _'} />
+                    <Dialog text={'Y: _'} />
+                    <Dialog text={'Y: _'} />
+                    <Dialog text={'Y: _'} />
+                    <Dialog text={'Y: _'} />
+                    <Dialog text={'Y: _'} />
+                    <Dialog text={'Y: _'} />
+                    <Dialog text={'Y: _'} />
+                    <Dialog text={'Y: _'} />
+                    <Dialog text={'Y: _'} />
+                    <Dialog text={'Y: _'} />
+                    <Dialog text={'Y: _'} />
+                    <Dialog text={'Y: _'} />
+                    <Dialog text={'Y: _'} />
                 </div>
                 <div className='ChatText__enter'>
                     <input type="text" className='ChatText__input' />
