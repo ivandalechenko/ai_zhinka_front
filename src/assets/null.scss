@@ -143,6 +143,7 @@ html {
 body {
     width: 100vw;
     height: 100vh;
+    
 }
 
 
@@ -155,10 +156,6 @@ body {
     align-content: space-between;
     justify-content: center;
     overflow: hidden;
-    background-image: url('/img/bg.svg');
-    background-repeat: no-repeat;
-    background-size: 120vw 100vh;
-    background-position: center;
 
     @media(max-width: 1000px) {
         align-content: baseline;

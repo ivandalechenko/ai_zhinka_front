@@ -6,26 +6,12 @@ const ChatText: React.FC = () => {
     // const [text, setText] = useState('A: Welcome');
     return (
         <div className='ChatText'>
+            <div className='ChatText__container-bg'>
+                
+            </div>
             <div className='ChatText__container'>
                 <div className='ChatText__dialog'>
                     <Dialog text={'Meow'} />
-                    <Dialog text={'Y: _'} />
-                    <Dialog text={'Y: _'} />
-                    <Dialog text={'Y: _'} />
-                    <Dialog text={'Y: _'} />
-                    <Dialog text={'Y: _'} />
-                    <Dialog text={'Y: _'} />
-                    <Dialog text={'Y: _'} />
-                    <Dialog text={'Y: _'} />
-                    <Dialog text={'Y: _'} />
-                    <Dialog text={'Y: _'} />
-                    <Dialog text={'Y: _'} />
-                    <Dialog text={'Y: _'} />
-                    <Dialog text={'Y: _'} />
-                    <Dialog text={'Y: _'} />
-                    <Dialog text={'Y: _'} />
-                    <Dialog text={'Y: _'} />
-                    <Dialog text={'Y: _'} />
                     <Dialog text={'Y: _'} />
                 </div>
                 <div className='ChatText__enter'>

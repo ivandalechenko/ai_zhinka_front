@@ -3,6 +3,7 @@
     justify-content: center !important;
     align-items: flex-end !important;
     left: 40vw;
+    z-index: 999;
 
     @media(max-width: 1400px) {
         left: 50vw;
