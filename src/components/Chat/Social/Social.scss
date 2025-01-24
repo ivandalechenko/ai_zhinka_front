@@ -29,9 +29,10 @@
         align-items: center;
         background-color: rgba(41, 72, 93, 0.5);
         border: 2px solid #FF929A;
-        border-radius: 10px;
+        border-radius: 10px 0px 10px 10px;
 
         @media(max-width: 500px) {
+            border-radius: 10px;
             width: 48px;
             height: 48px;
         }

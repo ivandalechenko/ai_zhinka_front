@@ -24,7 +24,7 @@ const Decor: React.FC = () => {
                 transform: `translate(${offset.x}px, 0px)`,
                 transition: "transform 0.1s ease-out",
             }}>
-            <img src="/img/decor/decor.svg" alt="" />
+            <img src="/img/decor/zhinka.png" alt="" />
         </div>
     )
 };

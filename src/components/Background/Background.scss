@@ -1,13 +1,10 @@
-.Background{
-    overflow: hidden;
-    width: 100dvw;
-    height: 100dvh;
-    position: absolute;
-    left: 0;
-    top: 0;
+.Background {
+    width: 100% !important;
+    align-items: start !important;
     z-index: -1;
-    background-image: url('/img/bg.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+
+    img {
+        min-width: 120vw;
+        min-height: 100vh;
+    }
 }
