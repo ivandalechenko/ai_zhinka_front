@@ -3,7 +3,7 @@ import './Title.scss';
 const Title: React.FC = () => {
     return (
         <div className='Title'>
-            amy
+            amyxbt
         </div>
     )
 };
